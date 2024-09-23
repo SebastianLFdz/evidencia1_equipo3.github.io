@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recursos\css\style.css">
+    <title>Fundamentos Teóricos del Lenguaje HTML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center">Fundamentos Teóricos del Lenguaje HTML</h1>
+
+        <h2>¿Qué es HTML?</h2>
+        <p>
+            HTML, que significa <strong>HyperText Markup Language</strong> (Lenguaje de Marcado de Hipertexto), es el estándar para crear y estructurar páginas web. Se utiliza para describir la estructura del contenido en la web mediante etiquetas y atributos, lo que permite que los navegadores interpreten y muestren el contenido de manera adecuada.
+        </p>
+
+        <h2>Estructura Básica de un Documento HTML</h2>
+        <p>
+            Un documento HTML típico tiene la siguiente estructura:
+        </p>
+        <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Título de la Página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Bienvenido a mi Página&lt;/h1&gt;
+    &lt;p&gt;Este es un párrafo de texto.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </code></pre>
+
+        <h3>Componentes Clave</h3>
+        <ul>
+            <li><strong>Declaración DOCTYPE</strong>: Indica al navegador que el documento es HTML5.</li>
+            <li><strong>Elemento &lt;html&gt;</strong>: Contiene todo el contenido de la página.</li>
+            <li><strong>Elemento &lt;head&gt;</strong>: Contiene metadatos sobre el documento, como el título y la codificación de caracteres.</li>
+            <li><strong>Elemento &lt;body&gt;</strong>: Contiene el contenido visible de la página, como texto, imágenes y enlaces.</li>
+        </ul>
+
+        <h2>Etiquetas HTML</h2>
+        <p>
+            HTML utiliza <strong>etiquetas</strong> para definir diferentes tipos de contenido. Las etiquetas más comunes incluyen:
+        </p>
+        <ul>
+            <li><code>&lt;h1&gt;, &lt;h2&gt;, ... &lt;h6&gt;</code>: Para títulos y subtítulos.</li>
+            <li><code>&lt;p&gt;</code>: Para bloques de texto.</li>
+            <li><code>&lt;a&gt;</code>: Para crear hiperenlaces.</li>
+            <li><code>&lt;img&gt;</code>: Para insertar imágenes.</li>
+            <li><code>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</code>: Para crear listas no ordenadas y ordenadas.</li>
+        </ul>
+
+        <h3>Ejemplo de Etiquetas</h3>
+        <pre><code>
+&lt;h1&gt;Título Principal&lt;/h1&gt;
+&lt;p&gt;Este es un párrafo de texto.&lt;/p&gt;
+&lt;a href="https://www.ejemplo.com"&gt;Visita Ejemplo&lt;/a&gt;
+&lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+        </code></pre>
+
+        <h2>Atributos</h2>
+        <p>
+            Las etiquetas HTML pueden tener <strong>atributos</strong> que proporcionan información adicional. Por ejemplo, el atributo <code>href</code> en la etiqueta <code>&lt;a&gt;</code> especifica la URL de destino del enlace.
+        </p>
+        <pre><code>
+&lt;a href="https://www.ejemplo.com" target="_blank"&gt;Visita Ejemplo&lt;/a&gt;
+        </code></pre>
+
+        <h3>Atributos Comunes</h3>
+        <ul>
+            <li><code>id</code>: Identificador único para el elemento.</li>
+            <li><code>class</code>: Clase CSS para aplicar estilos.</li>
+            <li><code>style</code>: Estilos en línea aplicados directamente.</li>
+        </ul>
+
+        <h2>Semántica HTML</h2>
+        <p>
+            HTML5 introduce la <strong>semántica</strong>, que mejora la estructura del documento al utilizar etiquetas que describen mejor el contenido. Ejemplos incluyen:
+        </p>
+        <ul>
+            <li><code>&lt;header&gt;</code>: Para el encabezado de la página.</li>
+            <li><code>&lt;footer&gt;</code>: Para el pie de página.</li>
+            <li><code>&lt;article&gt;</code>: Para contenido independiente.</li>
+            <li><code>&lt;section&gt;</code>: Para secciones del contenido.</li>
+        </ul>
+
+        <h2>Conclusión</h2>
+        <p>
+            HTML es el bloque de construcción fundamental de la web. Comprender sus fundamentos teóricos es esencial para cualquier desarrollador web. A medida que avances en tus conocimientos, podrás combinar HTML con CSS y JavaScript para crear páginas web más interactivas y estilizadas.
+        </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
