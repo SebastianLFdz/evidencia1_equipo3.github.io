@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contacto</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="container mt-4">
+            <div class="row ">
+                <div class="card border black">
+                    <div class="card-header">
+                        <h3>Formulario de Contacto</h3>
+                    </div>
+                    <div class="card-body">
+                        <!-- 1era fila de registros -->
+                        <div class="row">
+                            <!-- Nombre de Registro -->
+                            <div class="col-md-4">
+                                <label for="ID_NMBR" class="form-label">Nombre</label>
+                                <input type="text" id="ID_NMBR" placeholder="Obligatorio" class="form-control">
+                            </div>
+                            <!-- Fin Nombre de Registro -->
+
+                            <!-- Primer Apellido  -->
+                            <div class="col-md-4">
+                                <label for="ID_1APLL" class="form-label">Primer Apellido</label>
+                                <input type="text" id="ID_1APLL" placeholder="Obligatorio" class="form-control">
+                            </div>
+                            <!-- Fin Primer Apellido -->
+
+                            <!-- Segundo Apellido -->
+                            <div class="col-md-4">
+                                <label for="ID_2APLL" class="form-label">Segundo Apellido</label>
+                                <input type="text" id="ID_2APLL" placeholder="Obligatorio" class="form-control">
+                            </div>
+                        </div>
+                        <!-- Fin de 1er Fila de registros-->
+
+                        <!-- 2da fila de registros -->
+                        <div class="row">
+                            <!-- Mensaje -->
+                            <div class="col-md-5">
+                                <label for="ID_TEXT_TYPE" class="form-label">Tipo de Mensaje</label>
+                                <select id="ID_TEXT_TYPE" class="form-select">
+                                    <option value="1">Seleccione uno</option>
+                                    <option value="2">Queja</option>
+                                    <option value="3">Sugerencia</option>
+                                    <option value="4">Felicitacion</option>
+                                </select>
+                            </div>
+                            <!-- Fin Mensaje -->
+
+                        </div>
+                        <!-- Fin 2da fila de registros-->
+                        <div class="row">
+                            <!-- Correo -->
+                            <div class="col-md-6">
+                                <label for="ID_MAIL" class="form-label">Correo</label>
+                                <input type="email" id="ID_MAIL" placeholder="Obligatorio" class="form-control">
+                            </div>
+                            <!-- Fin Correo -->
+
+                            <!-- Telefono -->
+                            <div class="col-md-6">
+                                <label for="ID_TELF" class="form-label">Telefono</label>
+                                <input type="tel" id="ID_TELF" placeholder="Obligatorio" class="form-control">
+                            </div>
+                            <!-- Fin Telefono -->
+                        </div>
+                        <div class="row">
+                            <!-- Fecha de Nacimiento -->
+                            <div class="col-md-6">
+                                <label for="ID_FEC_NAC" class="form-label">Fecha de Nacimiento</label>
+                                <input type="date" id="ID_FEC_NAC" class="form-control">
+                            </div>
+                            <!-- Fin Fecha de Nacimiento -->
+                            
+                            <!-- Genero -->
+                            <div class="col-md-6">
+                                <label for="ID_GNRO" class="form-label">Genero</label>
+                                <select id="ID_GNRO" class="form-select">
+                                    <option value="Hombre">Hombre</option>
+                                    <option value="Mujer">Mujer</option>
+                                    <option value="Otro">Otro</option>
+                                </select>
+                            </div>
+                            <!-- Fin Genero -->
+                        </div>
+
+                        <div class="row">
+                            <!-- Mensaje -->
+                            <div class="col-md-12">
+                                <label for="ID_MSG" class="form-label">Mensaje</label>
+                                <textarea id="ID_MSG" class="form-control" rows="3"></textarea>
+                            </div>
+                            <!-- Fin Mensaje -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="alert alert-primary mt-4" role="alert">
+                    <h5><input type="checkbox"> Aviso de Confidencialidad</h5>
+                    <p> La información confidencial, y todos los derechos a la misma que han sido o serán
+                        divulgados al Receptor, permanecerán como propiedad del Divulgador. El Receptor
+                        no obtendrá derecho alguno, de ningún tipo, sobre la información, ni tampoco ningún
+                        derecho de utilizarla, excepto para el objeto del presente acuerdo. La divulgación de
+                        la Información confidencial no implica el licenciamiento de derecho de patentes o
+                        derecho de autor o ningún otro derecho por parte del Divulgador, que no sean los
+                        establecidos aquí. 
+                    </p>
+                </div>
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <button class="btn btn-primary"> Enviar</button>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>

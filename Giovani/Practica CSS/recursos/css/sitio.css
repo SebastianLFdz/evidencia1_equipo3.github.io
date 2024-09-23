@@ -1,0 +1,73 @@
+/* Configuración general */
+body {
+    font-family: Helvetica;
+    background-color: #87ceeb;
+    margin: 60px;
+    padding: 0;
+}
+
+.contenedor {
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #d6651f;
+}
+
+/* Estilo para la tabla */
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 900px; /* 3 secciones de 300px cada una */
+}
+
+td {
+    width: 300px;
+    height: 400px;
+}
+
+#seccion1 {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+#seccion1:hover {
+    background-color: green;
+}
+
+#seccion2 {
+    background-color: white;
+    text-align: center;
+}
+
+#seccion2 img {
+    width: 300px;
+    height: 300px;
+}
+
+#seccion3 {
+    background-color: darkred;
+    cursor: pointer;
+}
+
+#seccion3:hover {
+    background-color: red;
+}
+
+/* Estilo para fieldset */
+fieldset {
+    background-color: white;
+    font-size: 14px;
+    text-align: justify;
+    border: 2px solid #d6651f; 
+
+legend h3 {
+    margin: 0;
+    font-size: 16px;
+}
