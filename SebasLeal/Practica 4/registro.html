@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registrarse</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="container mt-4">
+            <div class="row ">
+                <div class="card border black">
+                    <div class="card-header">
+                        <h3>Formato de Registro</h3>
+                    </div>
+                    <div class="card-body">
+                        <!-- 1era fila de registros -->
+                        <div class="row">
+                            <!-- Nombre de Registro -->
+                            <div class="col-md-4">
+                                <label for="ID_NMBR" class="form-label">Nombre</label>
+                                <input type="text" id="ID_NMBR" placeholder="Obligatorio" class="form-control">
+                            </div>
+                            <!-- Fin Nombre de Registro -->
+
+                            <!-- Primer Apellido  -->
+                            <div class="col-md-4">
+                                <label for="ID_1APLL" class="form-label">Primer Apellido</label>
+                                <input type="text" id="ID_1APLL" placeholder="Obligatorio" class="form-control">
+                            </div>
+                            <!-- Fin Primer Apellido -->
+
+                            <!-- Segundo Apellido -->
+                            <div class="col-md-4">
+                                <label for="ID_2APLL" class="form-label">Segundo Apellido</label>
+                                <input type="text" id="ID_2APLL" placeholder="Obligatorio" class="form-control">
+                            </div>
+                        </div>
+                        <!-- Fin de 1er Fila de registros-->
+
+                        <!-- 2da fila de registros -->
+                        <div class="row">
+                            <!-- Telefono -->
+                            <div class="col-md-4">
+                                <label for="ID_TELF" class="form-label">Telefono</label>
+                                <input type="number" id="ID_TELF" placeholder="Opcional" class="form-control">
+                            </div>
+                            <!-- Fin Telefono -->
+
+                            <!-- Correo -->
+                            <div class="col-md-4">
+                                <label for="ID_CORR" class="form-label">Correo</label>
+                                <input type="email" id="ID_CORR" placeholder="Obligatorio" class="form-control">
+                            </div>
+                            <!-- Fin Correo -->
+                        </div>
+                        <!-- Fin 2da fila de registros-->
+
+                        <!-- 3era fila de registros -->
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <!-- Datos Escolares -->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4><i class="fa-solid fa-graduation-cap"></i> Datos Escolares</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <!-- Matricula -->
+                                            <div class="col-md-6">
+                                                <label for="ID_MATR" class="form-label">Matricula</label>
+                                                <input type="number" id="ID_MATR" class="form-control">
+                                            </div>
+                                            <!-- Fin Matricula -->
+
+                                            <!-- Carrera -->
+                                            <div class="col-md-6">
+                                                <label for="ID_CARR" class="form-label">Carrera</label>
+                                                <select id="ID_CARR" class="form-select">
+                                                    <option value="1">Seleccione una</option>
+                                                    <option value="2">LA</option>
+                                                    <option value="3">CP</option>
+                                                    <option value="4">LNI</option>
+                                                    <option value="5">LTI</option>
+                                                </select>
+                                            </div>
+                                            <!-- Fin Carrera -->
+                                        </div>
+
+                                        <div class="row">
+                                            <!-- Semestre -->
+                                            <div class="col-md-4">
+                                                <label for="ID_SEME" class="form-label">Semestre</label>
+                                                <select id="ID_SEME" class="form-select">
+                                                    <option value="1">Seleccione uno</option>
+                                                    <option value="2">1</option>
+                                                    <option value="3">2</option>
+                                                    <option value="4">3</option>
+                                                    <option value="5">4</option>
+                                                    <option value="6">5</option>
+                                                    <option value="7">6</option>
+                                                    <option value="8">7</option>
+                                                    <option value="9">8</option>
+                                                    <option value="10">9</option>
+                                                    <option value="11">10</option>
+                                                </select>
+                                            </div>
+                                            <!-- Fin Semestre -->
+
+                                            <!-- Promedio -->
+                                            <div class="col-md-4">
+                                                <label for="ID_PROM" class="form-label">Promedio</label>
+                                                <input type="number" id="ID_PROM" class="form-control">  
+                                            </div> 
+                                            <!-- Fin Promedio -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <!-- Datos de Usuario -->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4><i class="fa-solid fa-user"></i> Datos de Inicio de Sesion</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label for="ID_USR" class="form-label">Cuenta</label>
+                                                <input type="text" id="ID_USR" class="form-control" placeholder="Obligatorio">
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label for="ID_PSWD" class="form-label">Contrasena</label>
+                                                <input type="password" id="ID_PSWD" class="form-control" placeholder="Obligatorio">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="ID_PSWD2" class="form-label">Confirmar Contrasena</label>
+                                                <input type="password" id="ID_PSWD2" class="form-control" placeholder="Contrasena">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fin Datos de Usuario -->
+                            </div>
+                        </div>
+                        <!-- Fin 3era fila de registros -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="alert alert-primary mt-4" role="alert">
+                    <h5><input type="checkbox"> <a href="https://imt.mx/images/files/CIEG/CartaCompromisoConfidencialidad.pdf" target="_blank">Aviso de Confidencialidad</a></h5>
+                </div>
+            <div class="row mt-4">
+                <div class="col-md-6 text-center">
+                    <button class="btn btn-primary"> <i class="fa-solid fa-check"></i> Registrar</button>
+                </div>
+                <div class="col-md-6 text-center">
+                    <button class="btn btn-danger"> <i class="fa-solid fa-xmark"></i> Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+/* Configurar la fuente a Helvetica y el fondo de la página celeste con el código
+hexadecimal 87ceeb. */
+body {
+    font-family: Helvetica;
+    background-color: #87ceeb;
+}
+/*El contenedor principal debe tener un relleno de 20 pixeles. */ 
+.contenedor {
+    padding: 20px;
+}
+/* Los encabezados principales deben estar centrados */
+h1 {
+    text-align: center;
+}
+/* Especificamente el subtitulo (segundo encabezado) debe tener mostrar el texto
+en mayusculas y de color dorado utilizando el hexadecimal d6651f. */
+h2 {
+    text-align: center;
+    color: #d6651f;
+    text-transform: uppercase;
+}
+/* La tabla debe utilizar un solo borde (propiedad border-collapse) de 5 pixiles de
+ancho color negro y debe estar centrada en el navegador. */
+table {
+    border-collapse: collapse;
+    border: 5px solid black;
+    text-align: center;
+    margin: auto;
+}
+/* Cada franja de la bandera debe tener un ancho de 300 pixeles y una altura de
+400 pixeles. Los colores de cada franja son: darkgreen, white y dark red en ese orden. */
+#seccion1 {
+    width: 300px;
+    height: 400px;
+    background-color: darkgreen;
+}
+/* Al pasar el mouse por cada color este debe cambiar a green, whitesmoke y red
+respectivamente, cuide que el cursor cambie a un puntero y no a la flecha. */
+#seccion1:hover {
+    background-color: green;
+}
+
+
+#seccion2 {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+}
+#seccion2:hover {
+    background-color: whitesmoke;
+}
+
+#seccion3 {
+    width: 300px;   
+    height: 400px;  
+    background-color: darkred;
+}
+#seccion3:hover {
+    background-color: red;
+}
+/* La imagen debe tener un ancho y alto de 300 pixeles. */
+img {
+    text-align: center;
+    height: 300px;  
+    width: 300px;
+}
+/* La etiqueta fieldset debe ser de color blanco de fondo con un tamaño de fuente
+de 14 pixeles y texto justificado. */
+fieldset {
+    background-color: white;
+    font-size: 14px;
+    text-align: justify;
+}
+/* Agregar un extra para dar su estilo personal */
